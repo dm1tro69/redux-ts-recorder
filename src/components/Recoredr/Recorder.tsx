@@ -46,7 +46,7 @@ const Recorder = () => {
     return (
         <div className={sx('recorder', {'recorder-started': started})}>
              <button onClick={handleClick} className={'recorder-record'}><span></span></button>
-            <div className={'recorder-counter'}>{addZero(hours)}:{addZero(minutes)}{addZero(seconds)}</div>
+            <div className={'recorder-counter'}>{addZero(hours)}:{addZero(minutes)}:{addZero(seconds)}</div>
         </div>
     );
 };
